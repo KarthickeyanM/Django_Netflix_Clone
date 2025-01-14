@@ -1,0 +1,9 @@
+[project]
+name = "django-netflix"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "django-allauth>=65.3.1",
+    "django>=5.1.4",
+]
