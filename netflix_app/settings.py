@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-ifa^hz5-7!w(dc)#t%2_1n(+y2db%h39my@z4mdnbujw%yeras
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-netflix-clone-mt9m.onrender.com',
+]
 
 
 # Application definition
