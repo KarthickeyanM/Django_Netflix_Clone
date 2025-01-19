@@ -32,8 +32,7 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    '127.0.0.1',
-    'django-netflix-clone-mt9m.onrender.com',
+    'https://django-netflix-clone-mt9m.onrender.com',
 ]
 
 # Application definition
