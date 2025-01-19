@@ -1,0 +1,5 @@
+Django
+django-allauth
+pillow
+dj-database-url
+psycopg
