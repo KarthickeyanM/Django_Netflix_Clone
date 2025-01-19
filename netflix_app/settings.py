@@ -31,6 +31,10 @@ ALLOWED_HOSTS = [
     'django-netflix-clone-mt9m.onrender.com',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    '127.0.0.1',
+    'django-netflix-clone-mt9m.onrender.com',
+]
 
 # Application definition
 
@@ -92,6 +96,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'netflix_app.wsgi.application'
 
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# CSRF_FAILURE_VIEW = 'django.views.csrf.csrf_failure'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
