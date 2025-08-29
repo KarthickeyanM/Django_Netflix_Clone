@@ -31,9 +31,10 @@ This project is a Netflix-inspired web application built with Django. It allows 
 - Responsive mobile-friendly interface
 - Admin panel for content management
 
-## Demo
+<!--## Demo
 
 - [Live Demo](https://your-demo-link.com) *(if available)*
+-->
 
 ## Tech Stack
 
@@ -108,8 +109,8 @@ Movie Details
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
 
-License
-MIT
+<!--License
+MIT-->
 
 Contact
 Author: Karthickeyan M
